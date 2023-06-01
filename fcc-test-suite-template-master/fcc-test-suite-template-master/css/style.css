@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
 body {
+	font-family: 'Poppins', sans-serif;
+	background-color: rgb(62, 194, 148);
+	color: white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -6,13 +11,16 @@ body {
 }
 
 #survey-form {
+	border-radius: 20px;
 	display: flex;
+	padding: 20px;
 	flex-direction: column;
-	margin-right: 16%;
+	background-color: rgb(37, 114, 88);
+	width: 60%;
 }
 
 #dropdown {
-	margin-top: 15px;
+	margin-top: 2px;
 }
 
 #survey-form label {
@@ -28,4 +36,18 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 15px;
+}
+
+#comments {
+	display: flex;
+	flex-direction: column;
+}
+
+#submit {
+	background-color: rgb(62, 194, 148);
+	color: white;
+	border: 0;
+	width: 20%;
+	height: 30px;
+	margin-top: 5px;
 }
