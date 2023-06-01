@@ -4,3 +4,28 @@ body {
 	align-items: center;
 	flex-direction: column;
 }
+
+#survey-form {
+	display: flex;
+	flex-direction: column;
+	margin-right: 16%;
+}
+
+#dropdown {
+	margin-top: 15px;
+}
+
+#survey-form label {
+	margin: 10px 0 5px;
+}
+
+#options-radio {
+	display: flex;
+	flex-direction: column;
+}
+
+#options-checkbox {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
