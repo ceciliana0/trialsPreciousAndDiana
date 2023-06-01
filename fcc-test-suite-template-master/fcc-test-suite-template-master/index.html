@@ -10,9 +10,14 @@
     <h1 id="title">PreciousAndDiana Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form" action="">
-      <input id="name" type="text" required/>
-      <input id="email" type="email" required/>
-      <input id="number" type="number"/>
+      <label id="name-label">Name</label>
+      <input id="name" name="name-label" type="text" required/>
+
+      <label id="email-label">Name</label>
+      <input id="email" name="email-label" type="email" required/>
+
+      <label id="number-label">Age</label>
+      <input id="number" name="number-label" type="number" min="18" max="100" />
     </form>
 
 
